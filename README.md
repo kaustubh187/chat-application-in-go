@@ -15,9 +15,10 @@ The server application operates as follows:
 Concurrent Connections: Uses Go routines to handle multiple client connections simultaneously.
 - Synchronized Map Access: Uses a mutex to synchronize access to each room's map, ensuring thread safety for concurrent reads and writes.
 
-# Getting Started
 ## Prerequisites
 -> Go (v1.15+)
+
+# Screenshots
 
 ![image](https://github.com/user-attachments/assets/30ee8174-53bc-4ee9-8caf-73d09b3bf9ae)
 ![image](https://github.com/user-attachments/assets/44f6b828-77bc-4fe9-a37b-247d0a94d4d0)
